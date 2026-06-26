@@ -1,3 +1,16 @@
 {
-  
+  "BOXER-BOXER.aromaPrinciple": "Lore",
+  "BOXER-BOXER.banter.alive.endTurnPing": "Co-op hurry up end turn ping message",
+  "BOXER-BOXER.banter.dead.endTurnPing": "...",
+  "BOXER-BOXER.cardsModifierDescription": "__ cards will now appear in rewards and shops.",
+  "BOXER-BOXER.cardsModifierTitle": "__ Cards",
+  "BOXER-BOXER.description": "Character Selection\nScreen Description",
+  "BOXER-BOXER.eventDeathPrevention": "Co-op survival line",
+  "BOXER-BOXER.goldMonologue": "Line spoken when obtaining a large amount of gold",
+  "BOXER-BOXER.possessiveAdjective": "his",
+  "BOXER-BOXER.pronounObject": "him",
+  "BOXER-BOXER.pronounPossessive": "his",
+  "BOXER-BOXER.pronounSubject": "he",
+  "BOXER-BOXER.title": "The Boxer",
+  "BOXER-BOXER.titleObject": "The Boxer"
 }
