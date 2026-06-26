@@ -1,5 +1,6 @@
 ﻿using BaseLib.Abstracts;
 using BaseLib.Utils.NodeFactories;
+using Boxer.BoxerCode.Cards.Basic;
 using Boxer.BoxerCode.Extensions;
 using Godot;
 using MegaCrit.Sts2.Core.Entities.Characters;
@@ -13,24 +14,24 @@ public class Boxer : PlaceholderCharacterModel
 {
     public const string CharacterId = "Boxer";
 
-    public static readonly Color Color = new("ffffff");
+    public static readonly Color Color = Colors.Black;
 
     public override Color NameColor => Color;
-    public override CharacterGender Gender => CharacterGender.Neutral;
-    public override int StartingHp => 70;
+    public override CharacterGender Gender => CharacterGender.Masculine;
+    public override int StartingHp => 82;
 
     public override IEnumerable<CardModel> StartingDeck =>
     [
-        ModelDb.Card<StrikeIronclad>(),
-        ModelDb.Card<StrikeIronclad>(),
-        ModelDb.Card<StrikeIronclad>(),
-        ModelDb.Card<StrikeIronclad>(),
-        ModelDb.Card<StrikeIronclad>(),
-        ModelDb.Card<DefendIronclad>(),
-        ModelDb.Card<DefendIronclad>(),
-        ModelDb.Card<DefendIronclad>(),
-        ModelDb.Card<DefendIronclad>(),
-        ModelDb.Card<DefendIronclad>()
+        ModelDb.Card<StrikeBoxer>(),
+        ModelDb.Card<StrikeBoxer>(),
+        ModelDb.Card<StrikeBoxer>(),
+        ModelDb.Card<StrikeBoxer>(),
+        ModelDb.Card<StrikeBoxer>(),
+        ModelDb.Card<DefendBoxer>(),
+        ModelDb.Card<DefendBoxer>(),
+        ModelDb.Card<DefendBoxer>(),
+        ModelDb.Card<DefendBoxer>(),
+        ModelDb.Card<DefendBoxer>()
     ];
 
     public override IReadOnlyList<RelicModel> StartingRelics =>

@@ -1,3 +1,6 @@
 {
-  
+  "BOXER-STRIKE_BOXER.description": "Deal {Damage:diff()} damage.",
+  "BOXER-STRIKE_BOXER.title": "Strike",
+  "BOXER-DEFEND_BOXER.description": "gain {Block:diff()} [gold]Block[/gold].",
+  "BOXER-DEFEND_BOXER.title": "Defend"
 }
